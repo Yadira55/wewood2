@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
+/* Limpiar los estilos del navegador */
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 400;
+}
+
+div#wrapper{
+	width: 1024px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;	
+}
+nav{
+	width: 1024px;
+	height: 70px;
+	background-color: black;
+}
+header{
+	width: 1024px;
+	height: 600px;
+	background-image: url("exportacion/images/header.jpg");
+}
+section#relojes{
+	width: 1024px;
+	height: 457px;
+	background-color: tomato;
+}
+section#nosotros{
+	width: 1024px;
+	height: 748px;
+	background-color: #F78F91;
+}
+section#catalogo{
+	width: 1024px;
+	height: 788px;
+	background-color: #3D0ADA;
+}
+section#contacto{
+	width: 1024px;
+	height: 788px;
+	background-color: #07E1DE;
+}
+footer{
+	width: 1024px;
+	height: 50px;
+	background-color: #461C31;
+}
+nav img{
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+		
+}
+nav ul{
+	float: right;
+	margin-top: 20px;
+	margin-right: 15px;	
+}
+nav ul li{
+	float: left;
+	margin-left: 30px;
+}
+nav a{
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+nav a:hover{
+	color: #FC5F02;
+}

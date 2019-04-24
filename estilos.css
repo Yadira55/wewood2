@@ -34,7 +34,6 @@ header{
 section#relojes{
 	width: 1024px;
 	height: 457px;
-	background-color: tomato;
 	padding-top: 20px;
 }
 section#nosotros{
@@ -93,9 +92,28 @@ section#relojes h2{
 div.boxRelojes{
 	width: 237px;
 	height: 273px;
-	background-color: #666565;
 	float: left;
 	margin-top: 40px;
 	margin-left: 9px;
 	margin-right: 9px;
+}
+div.boxRelojes img{
+	width: 100px;
+	height: 100px;
+	margin-left: 65px;
+	margin-top: 10px;
+	margin-bottom: 20px;	
+}
+div.boxRelojes p{
+	text-align: center
+}
+h2.titulos{
+	font-size: 34px;
+	color: white;
+	background-color: #30A2A6;
+	width: 324px;
+	height: 61px;
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 10px;
 }

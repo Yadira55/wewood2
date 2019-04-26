@@ -47,7 +47,6 @@ section#catalogo{
 section#contacto{
 	width: 1024px;
 	height: 788px;
-	background-color: #07E1DE;
 }
 footer{
 	width: 1024px;
@@ -198,4 +197,86 @@ div.boxCatalogo a{
 	color: #B14E80;
 	font-size: 16px;
 }
+div.boxContacto{
+	width: 512px;
+	height: 360px;
+	float: left;
+	margin-top: 60px;
+}
+table{
+	width: 330px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.campo{
+	width: 300px;
+	height: 40px;
+	border: solid 1px #B14E80;
+	border-radius: 8px;
+	background-color: transparent;
+	font-weight: 100px;
+	font-size: 16px;
+	color: #B14E80;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+#altura{
+	height: 130px;
+	padding-top: 10px;
+	resize: none;
+}
+.enviar{
+	width: 87px;
+	height: 30px;
+	background-color: #B14E80;
+	color: white;
+	font-size: 16px;
+	border-radius: 8px;
+	float: right;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.enviar:hover{
+	background-color: #461C31;
+	color: #B14E80;
+}
+::-webkit-input-placeholder{color:#B14E80;} /*Safari & Chrome*/
+::-moz-input-placeholder{color: #B14E80;} /*Mozila Firefox*/
+::-ms-input-placeholder{color: #B14E80;} /* Microsoft IE o Edge*/
+::-o-input-placeholder{color: #B14E80;} /*Opera*/
+input-placeholder{color: #B14E80;} /*Universal*/
+footer h2{
+	font-size: 18px;
+	color: white;
+	margin-top: 17px;
+	margin-left: 17px;
+	float: left;
+}
 	
+footer ul{
+	float: right;
+	margin-left: 15px;
+	margin-top: 20px;
+	list-style: none;
+}
+footer ul li{
+	float: left;
+	margin-left: 15px;
+}
+div#face{
+	width: 7px;
+	height: 13px;
+	background-image: url("exportacion/vectores/fb_blanco.svg");
+}
+div#face:hover{
+	background-image: url("exportacion/vectores/fb_naranja.svg");
+}
+div#instagram{
+	width: 15px;
+	height: 14px;
+	background-image: url("exportacion/vectores/instagram_blanco.svg"); 
+}
+div#instagram:hover{
+	background-image: url("exportacion/vectores/instagram_naranja.svg");
+}
